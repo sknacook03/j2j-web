@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    z-index: 12;
+    width: 100%;
+    height: 112px;
+    position: sticky;
+    top: 0;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.container{
+    margin: 0 auto;
+}
+h1{
+    padding: 20px;
+    width: 300px;
+}
+h1 a{
+    text-decoration: none;
+    color: #666;
+}
+
+.search-bar{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: #666;
+    padding: 7px 26px;
+    text-decoration: none;
+    margin: 4px 1350px; 
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 165px;
+    border-bottom: 1px solid;
+    outline: 0;  
+}
+.submit{
+    position: absolute;
+    margin: 4px 1525px; 
+    top: 30px;
+    left: 10px;
+    width: 50px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #666;
+    width: 65px;
+    border: 0;
+    padding: 1px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+a[class="Box"]{
+    color: #666;
+    position: absolute;
+    margin: 4px 1630px; 
+    top: 35px;
+    left: 10px;
+    width: 50px;
+    font-size: 12px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+    
+}
+a[class="Box"]:hover{
+    border-bottom: 2px solid #666;
+    padding-bottom: 0px;
+}
+a[class="view"]{
+    color: #666;
+    position: absolute;
+    margin: 4px 1700px; 
+    top: 35px;
+    left: 10px;
+    width: 65px;
+    font-size: 12px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+a[class="view"]:hover{
+    border-bottom: 2px solid #666;
+    padding-bottom: 0px;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    
+}
+nav ul{
+    text-align: center;
+    padding:0px;
+    list-style: none;
+    
+    
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 11px 16px 16px;
+    width: 125px;
+    
+}
+nav ul li a{
+    color: #666;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid #666;
+    padding-bottom: 0px;
+}
+footer{
+    clear: both;
+    background-color: #666;
+    margin-top: 94px;
+    padding: 70px;
+    text-align: center;
+    color: white;
+}
+.image{
+    width:40%; 
+    float: left;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.banner{
+    width: 40%;
+    float: center;
+    list-style: none;
+    padding-top: 100px;
+    
+}
+.banner li{
+    padding-top: 20px;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.icon{
+    padding-top: 10px;
+    width: 20%;
+    float: center;
+
+    
+}
+.icon li{
+    list-style: none;
+    padding-bottom: 20px;
+}
+.icon a{
+    text-decoration:none ;
+    color: #666;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+    
+}
+.icon a:hover{
+    border-bottom: 2px solid #666;
+    padding-bottom: 0px;
+}
